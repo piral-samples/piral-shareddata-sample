@@ -1,0 +1,16 @@
+{
+  "name": "piral-shareddata-sample",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "pilet debug packages/pilet"
+  },
+  "devDependencies": {
+    "piral-cli": "0.15.0",
+    "piral-cli-esbuild": "0.15.0",
+    "typescript": "4.9.3"
+  }
+}
